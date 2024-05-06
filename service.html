@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services in Jhelum | CareNest</title>
+    <meta name="description" content="Offering professional home nursing services in Jhelum. Our experienced nurses provide compassionate care at home. Contact us today!">
+    <link rel="shortcut icon" href="images/logo copy.png" type="image/x-icon" alt="Home Nursing Services in Jhelum">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="canonical" href="https://www.carenest.site/home-nursing-services-jhelum">
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: ridge;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.logopic {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+  
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #0e9c0e;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+.nav-links li a:hover{
+    color: black;overflow-x: hidden;
+    
+ }
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    color: black;
+}
+
+.line1, .line2, .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+ /*-----------services--------*/
+
+ .service{
+    width: 100%;
+    
+    
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+span{
+    color: green;
+    font-weight: bolder;
+
+    
+}
+.services-bar {
+    
+}
+
+.services-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+.services-bar li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.services-bar li {
+    padding: 8px 16px;
+    opacity: 0; /* Start elements as invisible */
+    transform: translateX(-100px); /* Start slightly left */
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+
+/* Hover effect */
+.services-bar li:hover {
+    background-color: #004d00; /* Darker green on hover */
+}
+
+
+
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animation delays for individual items */
+.services-bar li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.services-bar li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.services-bar li:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.services-bar li:nth-child(4) {
+    animation-delay: 0.8s;
+}
+.services-bar li:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.copy{
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    align-items: center;
+    position: absolute;
+    left: 150px;
+}
+
+
+
+
+
+  
+  
+  
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav-active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: #008d36;
+        top: 70px;
+        width: 100%;
+        transition: transform 0.5s ease-in-out;
+        z-index: 1;
+    }
+
+    .nav-active li {
+        opacity: 0;
+    }
+
+    .nav-active li a {
+        color: #fff;
+    }
+
+    .nav-active li:nth-child(1) {
+        transition: opacity 0.5s ease 0.3s;
+    }
+
+    .nav-active li:nth-child(2) {
+        transition: opacity 0.5s ease 0.6s;
+    }
+
+    .nav-active li:nth-child(3) {
+        transition: opacity 0.5s ease 0.9s;
+    }
+
+    .burger.active .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .burger.active .line2 {
+        opacity: 0;
+    }
+
+    .burger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+
+.nav-active li {
+    opacity: 1; /* Change from 0 to 1 */
+}
+
+/* Remove or adjust the transition */
+.nav-active li:nth-child(1) {
+    transition: none; /* Remove or adjust this line */
+}
+
+.nav-active li:nth-child(2) {
+    transition: none; /* Remove or adjust this line */
+}
+
+.nav-active li:nth-child(3) {
+    transition: none; /* Remove or adjust this line */
+}
+.banner{
+    height: auto;
+}
+}footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    
+  }
+  .sss{
+    width: 100%;
+  }
+
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img class="logopic" src="images/logo copy.png" alt="Home Nursing Services in Jhelum | CareNest"></div>
+         <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=923401503368&text=I%20am%20interested%20in%20your%20service.%20Please%20provide%20more%20information." target="_blank">Get the Service</a>
+         <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+    <div class="imgs">
+        <img class="sss" src="elder care jobs - Made with PosterMyWall.jpg" alt="Home Nursing Services in Jhelum | CareNest">
+    </div>
+    <div id="services" class="container">
+        <h2>Our servics are in all jhelum city </h2>
+        <p>We are doing this only with the intension of caring and rewarding the patients. You can avail our services at very low rates.</p>
+        <p>feel free to get the service</p>
+      
+  <div id="services" class="container">
+      <h1>Home Nursing Services</h1>
+      <p>Welcome to our home nursing services. We provide professional care and assistance for patients in the comfort of their own homes.</p>
+      <p>Our home nursing services in Jhelum are tailored to meet the unique needs of each patient. We provide skilled nursing care, medication management, wound care, and more.</p>
+  
+      <div class="services">
+          <div class="service">
+              <h2>IV Injection and Cannula</h2>
+              <p>We offer IV injection and cannula services administered by experienced nurses. These services are available for patients with a doctor's prescription.</p>
+              <p class="note">* Doctor's prescription required</p>
+          </div>
+  
+          <div class="service">
+              <h2>Foley Catheter</h2>
+              <p>Our nurses are trained to insert and manage Foley catheters for patients in need. This service requires a doctor's prescription.</p>
+              <p class="note">* Doctor's prescription required</p>
+          </div>
+            <div class="service" >
+          <h2>Wound Dressing</h2>
+          <p>We provide wound dressing services to patients with injuries or surgical wounds. A doctor's prescription is necessary for this service.</p>
+          <p class="note">* Doctor's prescription required</p>
+      </div>
+           <div class="service">
+          <h2>Care After Operation</h2>
+          <p>We offer comprehensive care services for patients recovering from surgery. Our nurses provide post-operative care including wound care, medication administration, and monitoring. A doctor's prescription is required for all post-operative care services.</p>
+          <p class="note">* Doctor's prescription required</p>
+      </div>
+      <div class="service">
+          
+          <h2>Lab Test</h2>
+          <p>There are several types of lab tests that can be performed in home health care, including blood glucose monitoring, lipid profiles, hemoglobin A1C, and complete blood count (CBC). Some home health care providers may also offer more specialized testing, such as genetic testing or allergy testing.</p>
+          <p>It's important to note that not all home healthcare providers offer lab sampling and testing services, but Shefayab health care service can provide this service to patients. Patients should discuss their testing with us to determine the best course of action.</p>
+      </class>
+      <div class="service">
+          <h2>All Nursing Services</h2>
+          <p>We offer comprehensive nursing services including wound care, medication administration, and patient monitoring. A doctor's prescription is required for all our nursing services.</p>
+          <p class="note">* Doctor's prescription required</p>
+      </div>
+  
+          <!-- Add more services here as needed -->
+  
+          <!-----About----->
+       <div id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>Welcome to our home nursing services! Our services require a doctor's prescription. We are dedicated to providing high-quality nursing care in the comfort of your own home. Our team of experienced nurses is committed to delivering personalized care to meet the unique needs of each patient.</p>
+      <p>Our services require a doctor's prescription. At our home nursing agency, we understand the importance of continuity of care and strive to build strong relationships with our patients and their families. Whether you require IV injections, wound dressing, post-operative care, or any other nursing service, you can trust us to provide compassionate and professional care.</p>
+      <p>Our services require a doctor's prescription. Our mission is to promote healing, independence, and well-being for all our patients. We work closely with healthcare professionals and adhere to the highest standards of practice to ensure the best possible outcomes for our patients.</p>
+      <p>Our services require a doctor's prescription. Contact us today to learn more about our services or to schedule a consultation with one of our nurses. We look forward to serving you!</p>
+  </div>
+  
+  <div class="service">
+    <h2>How to get our service </h2>
+    <p> click on the given button "GET THE SERVICE" then tell us your issue and send us your doctors prescription and wait sometime we will be there</p>
+    <h2 id="contact">Contact Us</h2>
+    <p>If you have any questions or inquiries, feel free to contact us through the following channels:</p>
+    <div class="contact-buttons" id="contact">
+        <a href="https://api.whatsapp.com/send?phone=923401503368" target="_blank" ><img src="images/whatsa.gif" alt=""><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/carenest4" target="_blank" ><img src="images/insta.png" alt=""><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/your_facebook_page" target="_blank" ><img src="images/facebok.png" alt=""><i class="fab fa-facebook"></i></a>
+    </div>
+</div>
+ <footer>
+<p>&copy; 2024 CareNest - All rights Reserved | Designed by Muhammad Saqib</p>
+</footer>
+</div>
+   <script>
+        const burger = document.querySelector('.burger');
+            const navLinks = document.querySelector('.nav-links');
+            const navLinksLi = document.querySelectorAll('.nav-links li');
+            
+            burger.addEventListener('click', () => {
+                // Toggle Nav
+                navLinks.classList.toggle('nav-active');
+            
+                // Animate Links
+                navLinksLi.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = '';
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                });
+            
+                // Burger Animation
+                burger.classList.toggle('active');
+            });
+    
+    
+            document.querySelectorAll('.services-bar li').forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.style.backgroundColor = '#004d00'; // darker green on hover
+        });
+    
+        item.addEventListener('mouseout', () => {
+            item.style.backgroundColor = ''; // revert on mouse out
+        });
+    });
+            </script>
+</body>
+</html>
