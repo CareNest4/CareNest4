@@ -174,7 +174,10 @@ span{
     .nav-links {
         display: none;
     }
-
+.copy{
+    position: absolute;
+    left: 10%;
+}
     .burger {
         display: flex;
     }
